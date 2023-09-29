@@ -11,27 +11,74 @@
 }
 #sec1{
     height: 100vh;
-    background-color: red;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(116,33,168,1) 100%);
     display: grid;
+    color: black;
     place-items: center;
     font-size: 150px;
     font-family: 'Pacifico', cursive;
 }
-#sec2{
-    height: 100vh;
-    background-color: white;
-    display: grid;
-    place-items: center;
+#sec1 > h1{
     font-size: 150px;
+}
+#sec2{
+
+}
+.overlay {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: black;
     font-family: 'Pacifico', cursive;
+    font-size: 50px;
+
+}
+.imagenes{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    text-align: right;
+}
+#sec2 img{
+    width: 100%;
+    height: auto;
+}
+.imagen-top{
+    position: relative;
+    height: 144px;
+    margin-top: -50px;
+    overflow: hidden;
 }
 #sec3{
     height: 100vh;
-    background-color: green;
+    color:black;
+    background: linear-gradient(to bottom, rgba(116,33,168,1) 0%,rgba(0,0,0,1) 100%);
     display: grid;
     place-items: center;
-    font-size: 150px;
     font-family: 'Pacifico', cursive;
+}
+#sec3 > h1{
+    font-size: 150px;
+}
+.gale{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+.gale img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.gale img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
 .img-principal{
     margin-top: 15px;
@@ -71,5 +118,5 @@
 }
 .accordion-button{
     color: #ffffff !important;
-    background-color: #52575e !important;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(116,33,168,1) 100%); !important;
 }
