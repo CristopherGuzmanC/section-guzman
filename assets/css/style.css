@@ -1,0 +1,23 @@
+#header-principal{
+    height: 100px;
+    background-color: blue;
+}
+#sec1{
+    height: 100vh;
+    background-color: red;
+}
+#sec2{
+    height: 100vh;
+    background-color: white;
+}
+#sec3{
+    height: 100vh;
+    background-color: green;
+}
+.img-principal{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.prueba{
+    background-color: brown;
+}
