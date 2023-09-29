@@ -21,9 +21,7 @@
 #sec1 > h1{
     font-size: 150px;
 }
-#sec2{
 
-}
 .overlay {
     position: absolute;
     z-index: 1;
@@ -35,6 +33,12 @@
     font-size: 50px;
 
 }
+.overlay-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .imagenes{
     position: relative;
     z-index: 0;
@@ -45,40 +49,37 @@
     width: 100%;
     height: auto;
 }
+#sec3 img{
+    width: 100%;
+    height: auto;
+}
 .imagen-top{
     position: relative;
     height: 144px;
     margin-top: -50px;
     overflow: hidden;
 }
-#sec3{
-    height: 100vh;
-    color:black;
-    background: linear-gradient(to bottom, rgba(116,33,168,1) 0%,rgba(0,0,0,1) 100%);
-    display: grid;
-    place-items: center;
-    font-family: 'Pacifico', cursive;
-}
+
 #sec3 > h1{
     font-size: 150px;
 }
 .gale{
-    display: flex;
-    width: 600px;
-    height: 430px;
+    display: flex !important;
+    width: 1000px !important;
+    height: 600px !important;
 }
 .gale img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
+    width: 0 !important;
+    flex-grow: 1 !important;
+    object-fit: cover !important;
+    opacity: .8 !important;
+    transition: .5s ease !important;
 }
 .gale img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
+    cursor: crosshair !important;
+    width: 300px !important;
+    opacity: 1 !important;
+    filter: contrast(120%) !important;
 }
 .img-principal{
     margin-top: 15px;
