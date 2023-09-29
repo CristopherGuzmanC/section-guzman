@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Section Guzman</title>
+    <title>Inicio</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
@@ -10,18 +10,32 @@
 </head>
 <body>
     <header id="header-principal">
-        <div class="container">
+        <div class="container marpad">
             <div class="row">
-                <div class="col-1 prueba">
-                    <a href="index.html"><img class="img-principal" src="assets/img/logo.png"></a>
+                <div class="col-3">
+                    <a href="index.html"><img class="img-principal" src="assets/img/logo_bdo_global.svg"></a>
                 </div>
-                <div class="col-9"></div>
+                <div class="col-9 dropdown">
+                    <nav class="menu-nav">
+                        <ul >
+                            <li><a href="carousel.html">Carousel</a></li>
+                            <li><a href="accordion.html">Accordion</a></li>
+                            <li><a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sections</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html#sec1">Section 1</a></li>
+                                    <li><a class="dropdown-item" href="index.html#sec2">Section 2</a></li>
+                                    <li><a class="dropdown-item" href="index.html#sec3">Section 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
-    <section id="sec1"><p>holaaaaaa</p></section>
-    <section id="sec2"><p>comoestas</p></section>
-    <section id="sec3"><p>wena los k</p></section>
+    <section id="sec1"><p>Section 1</p></section>
+    <section id="sec2"><p>Section 2</p></section>
+    <section id="sec3"><p>Section 3</p></section>
 
 <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -1,23 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 #header-principal{
-    height: 100px;
-    background-color: blue;
+    top: 0px;
+    height: 80px;
+    background-color: black;
+}
+.marpad{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1522.400px !important;
 }
 #sec1{
     height: 100vh;
     background-color: red;
+    display: grid;
+    place-items: center;
+    font-size: 150px;
+    font-family: 'Pacifico', cursive;
 }
 #sec2{
     height: 100vh;
     background-color: white;
+    display: grid;
+    place-items: center;
+    font-size: 150px;
+    font-family: 'Pacifico', cursive;
 }
 #sec3{
     height: 100vh;
     background-color: green;
+    display: grid;
+    place-items: center;
+    font-size: 150px;
+    font-family: 'Pacifico', cursive;
 }
 .img-principal{
-    margin-top: 20px;
-    margin-left: 8px;
+    margin-top: 15px;
 }
-.prueba{
-    background-color: brown;
+.menu-nav{
+    float: right;
+}
+.menu-nav > ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    hover
+}
+.menu-nav > ul > li {
+    float: left;
+}
+.menu-nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 25px 35px;
+}
+.menu-nav > ul > li > a:hover{
+    background-color: #f8f9fa3b;
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-color: #ffffff !important;
+    --bs-dropdown-link-hover-color: #ffffff !important;
+    --bs-dropdown-link-hover-bg: #f8f9fa3b !important;
+    background-color: black !important;
+}
+.accordion{
+    --bs-accordion-color: #ffffff !important;
+    --bs-accordion-bg: #000 !important;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(78 81 86 / 41%) !important;
+}
+.accordion-button{
+    color: #ffffff !important;
+    background-color: #52575e !important;
 }
